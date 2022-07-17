@@ -14,7 +14,16 @@ cat configure
 cat Makefile
 
 # 3 install
-./configure
+./configure --prefix=/usr/local/squid
 make
 sudo make install
 ls -al /usr/local/squid
+# 4 check config
+cat /usr/local/squid/etc/squid.conf
+
+# 5 Initialise the cache
+/usr/local/squid/sbin/squid -z
+
+# 6 
+/usr/local/squid/sbin/squid
+
