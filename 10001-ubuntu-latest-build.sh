@@ -16,4 +16,5 @@ cat Makefile
 # 3 install
 ./configure
 make
-make install
+sudo make install
+ls -al /usr/local/squid
