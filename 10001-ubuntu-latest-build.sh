@@ -5,6 +5,9 @@ set -x
 uname -a
 env
 whoami
+free -m
+ifconfig
+df -h
 # 2 bootstarp 
 sudo apt-get install libtool -y
 sudo apt-get install libtool-bin -y
