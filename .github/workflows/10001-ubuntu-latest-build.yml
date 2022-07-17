@@ -1,0 +1,8 @@
+name: 10001-ubuntu-latest-build
+on: [ push ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: ./10001-ubuntu-latest-build.sh
