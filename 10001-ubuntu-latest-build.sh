@@ -28,5 +28,5 @@ cat /usr/local/squid/etc/squid.conf
 /usr/local/squid/sbin/squid -z
 
 # 6 
-/usr/local/squid/sbin/squid
+sudo /usr/local/squid/sbin/squid
 
