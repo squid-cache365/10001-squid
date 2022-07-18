@@ -25,7 +25,7 @@ ls -al /usr/local/squid
 cat /usr/local/squid/etc/squid.conf
 
 # 5 Initialise the cache
-/usr/local/squid/sbin/squid -z
+sudo /usr/local/squid/sbin/squid -z
 
 # 6 
 sudo /usr/local/squid/sbin/squid
